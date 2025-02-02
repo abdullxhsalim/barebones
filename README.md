@@ -78,8 +78,11 @@ Here are some visuals of the Barebones Digital Lock system in action.
 ![Hardware Setup](pictures/20241204_115236.jpg)  
 *Our actual breadboard circuit in action.*
 
-![Close-up of Components](pictures/20241207_221142.jpg)  
+![Close-up of Components](pictures/20241207_222618.jpg)  
 *A close up shot of the circuit display when the passwords match.*
+
+![Work in Progress](pictures/20241203_051900.jpg)
+*At this stage, the circuit is still incomplete—wiring is in progress, and components are being tested before final assembly.*
 
 ![Team Liana](pictures/20241207_220530.jpg)
 *A creative 7-segment display graphic forming the abbreviation "TL" to represent our team, Team Liana.*  
