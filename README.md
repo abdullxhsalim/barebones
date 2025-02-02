@@ -30,50 +30,69 @@ This project was developed as part of the **CSE231 - Digital Logic Design** cour
 
 ## **Implementation Challenges**
 
-1. **Keypad Limitation**:  
-   During the implementation, the team initially purchased a 4x4 matrix keypad for input purposes. However, it was discovered that using this keypad required an Arduino or similar microcontroller, which was not permitted for this project. To overcome this limitation, the team innovatively created a custom keypad using individual switches, ensuring compliance with the project’s constraints while maintaining full functionality.
+### **Keypad Limitation**  
+During the implementation, the team initially purchased a 4x4 matrix keypad for input purposes. However, it was discovered that using this keypad required an Arduino or similar microcontroller, which was not permitted for this project. To overcome this limitation, the team innovatively created a custom keypad using individual switches, ensuring compliance with the project’s constraints while maintaining full functionality.
 
-2. **Clock Signal Instability**:  
-   Giving the clock signal using a physical switch introduced unpredictability. This caused the counters used to control the cursor positions for the authentication and registration modes to behave erratically. The system would sometimes fail to register inputs, or worse, cause three digits to change to the same value at once, disrupting the passcode functionality.  
-   To resolve this issue at the hardware level, a **555 timer** in monostable mode was used alongside a **capacitor** to stabilize the clock signal. This ensured that the counters received consistent and predictable pulses, eliminating the erratic behavior and improving overall reliability.
+### **Clock Signal Instability**  
+Giving the clock signal using a physical switch introduced unpredictability. This caused the counters used to control the cursor positions for the authentication and registration modes to behave erratically. The system would sometimes fail to register inputs, or worse, cause three digits to change to the same value at once, disrupting the passcode functionality.  
+To resolve this issue at the hardware level, a **555 timer** in monostable mode was used alongside a **capacitor** to stabilize the clock signal. This ensured that the counters received consistent and predictable pulses, eliminating the erratic behavior and improving overall reliability.
 
 ## **Why "Barebones"?**  
 The name **"Barebones"** reflects the simplicity and fundamental nature of this project. It was designed to demonstrate the core principles of digital logic design using basic, easily available components—without relying on microcontrollers, advanced processors, or complex systems. By utilizing flip-flops, logic gates, and counters, this project showcases how secure systems can be built from the ground up using only the essential building blocks of digital electronics. The aim was to create a fully functional system with minimal resources, ensuring that the project was accessible and easy to understand for those learning the fundamentals of digital circuits.
 
-## **How to Replicate**  
-1. **Build the Circuit**: Follow the circuit diagrams provided in the repository.  
-2. **Gather Components**: A list of required components is available [here](#component-list).  
-3. **Simulate**: Use simulation software like Logisim to test the design.  
-4. **Assemble**: Assemble the hardware and test functionality.
+## **How to Simulate in Logisim**
+
+1. **Download Logisim**: The Logisim executable file can be found [here](simulation/LogiSim/LogiSim.exe).  
+2. **Load the Project**: Open Logisim and navigate to the circuit file provided in the repository.  
+3. **Install 7-Segment Display Driver**: The required driver for the 7-segment display can be found [here](https://github.com/marceloboeira/logisim-7-segment-display-driver). Download and install it in LogiSim.  
+4. **Run the Simulation**: Use Logisim to interact with the keypad and observe the lock system in action.  
 
 ## **Component List**
 
-|            | Component                             | Quantity |
-|------------|---------------------------------------|----------|
-| 1          | 9V Battery                            | 1        |
-| 2          | Bread Board                           | 12       |
-| 3          | Common Anode 7-segment display        | 10       |
-| 4          | Common Cathode 7-segment display      | 8        |
-| 5          | IC 7404 Hex Inverter                  | 2        |
-| 6          | IC 7408 Quadruple 2-input AND gates   | 5        |
-| 7          | IC 74148 8:3 Priority Encoder         | 2        |
-| 8          | IC 7432 Quadruple 2-input OR gates    | 6        |
-| 9          | IC 7447 Common Anode BCD Decoder      | 8        |
-| 10         | IC 7473 Dual JK Flip-flops            | 2        |
-| 11         | IC 7474 Dual D Flip-flops             | 16       |
-| 12         | IC 7486 Quadruple 2-input XOR gates   | 4        |
-| 13         | Push Switch                           | 16       |
-| 14         | Set of Jumper Wires (40pcs)           | 5        |
-| 15         | Wire Box                              | 3        |
+| #  | Component                             | Quantity |
+|----|---------------------------------------|----------|
+| 1  | 9V Battery                            | 1        |
+| 2  | Breadboard                            | 12       |
+| 3  | Common Anode 7-segment display        | 10       |
+| 4  | Common Cathode 7-segment display      | 8        |
+| 5  | IC 7404 Hex Inverter                  | 2        |
+| 6  | IC 7408 Quadruple 2-input AND gates   | 5        |
+| 7  | IC 74148 8:3 Priority Encoder         | 2        |
+| 8  | IC 7432 Quadruple 2-input OR gates    | 6        |
+| 9  | IC 7447 Common Anode BCD Decoder      | 8        |
+| 10 | IC 7473 Dual JK Flip-flops            | 2        |
+| 11 | IC 7474 Dual D Flip-flops             | 16       |
+| 12 | IC 7486 Quadruple 2-input XOR gates   | 4        |
+| 13 | Push Switch                           | 16       |
+| 14 | Set of Jumper Wires (40pcs)           | 5        |
+| 15 | Wire Box                              | 3        |
+
+## **Screenshots & Photos**
+Here are some visuals of the Barebones Digital Lock system in action.
+
+### **Simulation Screenshots**
+![Circuit Overview](pictures/Simulation.png)  
+*The complete circuit layout in Logisim.*
+
+### **Real-Life Circuit Implementation**
+![Hardware Setup](pictures/20241204_115236.jpg)  
+*Our actual breadboard circuit in action.*
+
+![Close-up of Components](pictures/20241207_221142.jpg)  
+*A close up shot of the circuit display when the passwords match.*
+
+![Team Liana](pictures/20241207_220530.jpg)
+*A creative 7-segment display graphic forming the abbreviation "TL" to represent our team, Team Liana.*  
+
 
 ## **Team**  
 This project was collaboratively developed by:  
 - [Liana Shams](https://github.com/lianashams)  
 - [Abdullah Salim](https://github.com/abdullahxsalim)  
 - [Mohammad Yasir](#)  
-- [Afsana Umme Kulsum Eaty](#)
+- [Afsana Umme Kulsum Eaty](#)  
+
+Check out our project on LinkedIn: [Barebones Digital Lock](your-linkedin-project-url)  
 
 ## **License**  
 This project is licensed under the [MIT License](LICENSE).
-
----
