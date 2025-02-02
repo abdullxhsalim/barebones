@@ -95,7 +95,7 @@ This project was collaboratively developed by:
 - [Mohammad Yasir](#)  
 - [Afsana Umme Kulsum Eaty](#)  
 
-Check out our project on LinkedIn: [Barebones Digital Lock](your-linkedin-project-url)  
+Check out our project on LinkedIn: [Barebones Digital Lock](https://lnkd.in/gsgk5_EE)  
 
 ## **License**  
 This project is licensed under the [MIT License](LICENSE).
