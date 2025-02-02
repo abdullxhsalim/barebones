@@ -68,7 +68,7 @@ The name **"Barebones"** reflects the simplicity and fundamental nature of this 
 
 ## **Team**  
 This project was collaboratively developed by:  
-- [Liana Shams](#)  
+- [Liana Shams](https://github.com/lianashams)  
 - [Abdullah Salim](https://github.com/abdullahxsalim)  
 - [Mohammad Yasir](#)  
 - [Afsana Umme Kulsum Eaty](#)
