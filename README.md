@@ -5,7 +5,7 @@ A passcode-protected digital lock built entirely using basic logic circuits—no
 
 The **Barebones Digital Lock** is a simple yet effective demonstration of how a secure passcode system can be implemented using combinational and sequential digital logic. This project showcases the power of flip-flops, logic gates, and counters to create a fully functional lock system, emphasizing simplicity and resourcefulness by avoiding microcontrollers or advanced processing units.
 
-This project was developed as part of the **CSE231 - Digital Logic Design** course at **North South University** during the **Spring 2024 Semester**. The course was instructed by **Dr. Khaleda Akter**, who encouraged projects that were not overly simplistic and avoided microcontroller usage. The system was independently designed and implemented by the team members.
+This project was developed as part of the **CSE231 - Digital Logic Design** course at **North South University** during the **Summer 2024 Semester**. The course was instructed by **Dr. Khaleda Akter**, who encouraged projects that were not overly simplistic and avoided microcontroller usage. The system was independently designed and implemented by the team members.
 
 ## **Key Features**
 
@@ -75,6 +75,9 @@ Here are some visuals of the Barebones Digital Lock system in action.
 *The complete circuit layout in Logisim.*
 
 ### **Real-Life Circuit Implementation**
+![Top-down view](pictures/topdown.jpg)  
+*A comeplete top-down view of the circuit after completion.*
+
 ![Hardware Setup](pictures/20241204_115236.jpg)  
 *Our actual breadboard circuit in action.*
 
