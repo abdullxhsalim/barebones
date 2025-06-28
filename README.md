@@ -94,7 +94,7 @@ Here are some visuals of the Barebones Digital Lock system in action.
 ## **Team**  
 This project was collaboratively developed by:  
 - [Liana Shams](https://github.com/lianashams)  
-- [Abdullah Salim](https://github.com/abdullahxsalim)  
+- [Abdullah Salim](https://github.com/abdullxhsalim)  
 - [Mohammad Yasir](https://www.linkedin.com/in/md-yasir-xt/)  
 - [Afsana Umme Kulsum Eaty](https://www.facebook.com/eaty.afsana.3) 
 
